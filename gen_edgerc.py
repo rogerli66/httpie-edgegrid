@@ -40,7 +40,7 @@ parser.add_argument('--cred_file', '-f', action='store',
 	help='use the exported file from the OPEN API Administration tool.')
 args= parser.parse_args()
 
-print "Akamai OPEN API EdgeGrid Credentials"
+print "(Akamai OPEN API EdgeGrid Credentials)"
 print
 print "This script will create a configuration section in the local ~/.edgerc credential file."
 print
